@@ -4,7 +4,7 @@ Collector Test Environment
 Useful to test sending GET and POST events to a Snowplow collector
 
 ## Setup
-1. `git clone <repo> && cd <repo>`
+1. `git clone https://github.com/jonalmeida/collector-test-env.git && cd collector-test-env`
 2. `npm install`
 3. `npm start`
 
