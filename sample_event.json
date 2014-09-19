@@ -1,0 +1,31 @@
+{
+    "schema": "iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-0",
+    "data": [{
+        "eid": "BBBAEB98-B556-43E6-8A07-80B6FD093C2E",
+        "vp": "320x480",
+        "p": "mob",
+        "co": {
+            "schema": "iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0",
+            "data": [{
+                "schema": "iglu:com.snowplowanalytics.snowplow/mobile_context/jsonschema/1-0-0",
+                "data": {
+                    "osType": "ios",
+                    "osVersion": "7.1",
+                    "deviceVendor": "Apple Inc.",
+                    "deviceModel": "iPhone 5",
+                    "carrier": "TELUS"
+                }
+            }]
+        },
+        "refr": "myreferrer",
+        "url": "http://foo.com",
+        "dtm": "1402062281979",
+        "tv": "ios-0.1.1",
+        "tna": "cloudfront-1",
+        "lang": "en",
+        "page": "Main Page",
+        "e": "pv",
+        "aid": "1337",
+        "res": "320x480"
+    }]
+}
