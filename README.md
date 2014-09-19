@@ -3,6 +3,9 @@ Collector Test Environment
 
 Useful to test sending GET and POST events to a Snowplow collector
 
+- Uses Express 4 to handle routes
+- Posts timestamp of the event received. For POST, the timestamp of the first event in the `data` array.
+
 ## Setup
 1. `git clone https://github.com/jonalmeida/collector-test-env.git && cd collector-test-env`
 2. `npm install`
