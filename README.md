@@ -7,9 +7,10 @@ Useful to test sending GET and POST events to a Snowplow collector
 - Posts timestamp of the event received. For POST, the timestamp of the first event in the `data` array.
 
 ## Setup
-1. `git clone https://github.com/jonalmeida/collector-test-env.git && cd collector-test-env`
-2. `npm install`
-3. `npm start`
+1. Clone this repo somewhere
+2. `cd collector-test-env`
+3. `npm install`
+4. `npm start`
 
 ### Additional Setup
 Works well with [ngrok](https://ngrok.com/) to inspect the messages sent to your node app while emulating a pseudo-production env.
@@ -28,7 +29,7 @@ curl -X POST -d @sample_event.json [URL]/com.snowplowanalytics.snowplow/tp2 --he
 ```bash
 
 curl -X GET -G \
-'http://segfault.ngrok.com/i' \
+'http://727f64a9.ngrok.com/i' \
 -d e=pv \
 -d url=www.example.com \
 -d page=Example%20Page \
